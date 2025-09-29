@@ -1,16 +1,34 @@
 
 function getComputerChoice(){
-    let random = Math.floor(Math.random() * 3) + 1;//0.45 * 3
+    let random = Math.floor(Math.random() * 3) + 1;
     let choice = "";
     
     if(random == 1){
-        choice = "Paper!";
+        return choice = "Paper!";
+
     }else if(random == 2){
-        choice = "Rock!";
+        return choice = "Rock!";
+
     }else{
-        choice = "Scissors!"
+        return choice = "Scissors!";
     }
-    alert(choice);
 }
 
-getComputerChoice();
+function getHumanChoice(){
+    let choice = prompt("Rock - Paper - Scissors").toLowerCase();
+    
+    if(choice === "rock"){
+        return "Rock!";
+
+    }else if(choice === "paper"){
+        return "Paper!";
+
+    }else if(choice === "scissors"){
+        return "Scissors!";
+
+    }else{
+        return "Nothing selected..";
+    }
+}
+
+
