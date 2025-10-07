@@ -6,7 +6,7 @@ The player competes against the computer, and the first to reach **5 points** wi
 ---
 
 ## 🚀 Live Demo
-🔗 [Play the Game on GitHub Pages]
+🔗 [Play the Game on GitHub Pages] (https://empty002.github.io/Rock-Paper-Scissors/)
 
 ---
 
